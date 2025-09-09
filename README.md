@@ -21,6 +21,9 @@ npx express-generator --no-view --git ./
 
 Remove some stuff like bin, routes, or any unneccessary files, and delete the app.js content.
 
+### Connect to the database
+Next, Install the Postgres Database for our project. https://www.postgresql.org/download (Skip if you intend to use another database)
+
 ---
 
 TO BE CONTINUED
