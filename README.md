@@ -1,2 +1,3 @@
 # fit-tech-backend
-A backend project for 
+
+Details would be later added
