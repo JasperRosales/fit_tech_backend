@@ -1,15 +1,10 @@
-import {Router} from 'express';
+import { Router } from 'express';
+import { test } from '../controllers/auth.controller.js';
 
-const authRouter = Router();
+const router = Router();
 
-authRouter.get('/login', (req, res) => 
-    res.send(JSON.stringify(
-        {
-            name: "alden parker",
-            age: 21,
-            sex: "alpha"
-        }
-    ))
-) 
+// router.post('/register', register);
+// router.post('/login', login);
+router.get('/test', test);
 
-export default authRouter;
+export default router;
